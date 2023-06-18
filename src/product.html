@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body>
+
+
+
+    <nav class="  px-2 py-0 bg-violet-300 flex w-full justify-between items-center">
+      <a  class="flex-initial mx-4 text-lg "      href="https://github.com/ubeysaab"><i class=" fa fa-github fa-beat" ></i></a>
+      <div class="flex-initial w-8/12 flex justify-between ">
+      
+        
+        <a href="./customers.html">Customers</a>
+        <a href="./employees.html">Employees</a>
+        <a href="./product.html">Product</a>
+      </div>
+      <a  class="flex-initial mx-4 text-lg" href="https://www.linkedin.com/in/ubeysaab/"><i class=" fa fa-linkedin " ></i></a>
+    </nav>
+
+    <main class="container">
+      <div class="mb-6 grid gap-6 md:grid-cols-2 p-3">
+
+        <div>
+          <input
+            type="search"
+            placeholder="Search by Name "
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm
+            rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full
+            p-1.5  product-search-input"
+          />
+        </div>
+        <button class="border  font-medium text-lg border-red-400 rounded-xl product-search-btn ">Search</button>
+
+
+
+
+        <!-- <div>
+          <label
+            class="mb-2 block text-sm font-medium text-gray-900"
+            for="name"
+          >
+            ProductId
+          </label>
+          <input
+            class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 productId-input"
+            placeholder="ProductId"
+            type="text"
+            name="ProductId"
+            class=""
+          />
+        </div> -->
+
+        <div>
+          <label
+            class="mb-2 block text-sm font-medium text-gray-900"
+            for="name"
+          >
+            ProductName
+          </label>
+          <input
+            class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 productName-input"
+            placeholder="ProductName"
+            type="text"
+            name="ProductName"
+            class=""
+          />
+        </div>
+        <div>
+          <label
+            class="mb-2 block text-sm font-medium text-gray-900"
+            for="name"
+          >
+            supplierId
+          </label>
+          <input
+            class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500 supplierId-input"
+            placeholder="supplierId"
+            type="text"
+            name="supplierId"
+            class=""
+          />
+        </div>
+
+        <div>
+          <label
+            class="mb-2 block text-sm font-medium text-gray-900"
+            for="name"
+          >
+            categoryId
+          </label>
+          <input
+            class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 categoryId-input"
+            placeholder="categoryId"
+            type="text"
+            name="categoryId"
+            class=""
+          />
+        </div>
+        <div>
+          <label
+            class="mb-2 block text-sm font-medium text-gray-900"
+            for="name"
+          >
+            quantityPerUnit
+          </label>
+          <input
+            class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 quantityPerUnit-input"
+            placeholder="quantityPerUnit"
+            type="text"
+            name="categoryId"
+            class=""
+          />
+        </div>
+        <div>
+          <label
+            class="mb-2 block text-sm font-medium text-gray-900"
+            for="name"
+          >
+            unitPrice
+          </label>
+          <input
+            class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 unitPrice-input"
+            placeholder="unitPrice"
+            type="text"
+            name="unitPrice"
+            class=""
+          />
+        </div>
+
+        <div>
+          <label
+            class="mb-2 block text-sm font-medium text-gray-900"
+            for="name"
+          >
+            unitsInStock
+          </label>
+          <input
+            class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 unitsInStock-input"
+            placeholder="unitsInStock"
+            type="text"
+            name="unitsInStock"
+            class=""
+          />
+        </div>
+
+        <div>
+          <label
+            class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+            for="name"
+          >
+            unitsOnOrder
+          </label>
+          <input
+            class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500  unitsOnOrder-input"
+            placeholder="unitsOnOrder"
+            type="text"
+            name="unitsOnOrder"
+            class=""
+          />
+        </div>
+
+        <div>
+          <label
+            class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+            for="name"
+          >
+            reOrderLevel
+          </label>
+          <input class="bg-gray-50 border border-gray-300 text-gray-900 text-sm
+          rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full
+          p-1.5  reOrderLevel-input "
+          placeholder="reOrderLevel" type="text" name="reOrderLevel class="" />
+        </div>
+
+        <div>
+          <label
+            class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+            for="name"
+          >
+            discounted
+          </label>
+          <input
+            class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500  discounted-input"
+            placeholder="discounted"
+            type="text"
+            name="discounted"
+            class=""
+          />
+        </div>
+
+        <button class="rounded-xl border text-lg  font-medium border-green-500 add-product-btn">Add Product</button>
+      </div>
+
+ 
+      <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+        <table class="  table-auto w-full text-sm text-left text-gray-500">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+            <tr>
+              <th class="p-3">productId</th>
+              <th class="p-3">productName</th>
+              <th class="p-3">suppliedId</th>
+              <th class="p-3">categoryId</th>
+              <th class="p-3">quantityPerUnit</th>
+              <th class="p-3">unitPrice</th>
+              <th class="p-3">unitInStock</th>
+              <th class="p-3">unitsOnOrder</th>
+              <th class="p-3">reOrderLevel</th>
+              <th class="p-3">discounted</th>
+              <th class="p-3">Delete</th>
+              <th class="p-3">Edit</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <br />
+
+      <!-- bu hidden bir section  -->
+      <section class="edit-section w-2/3 p-2.5  " hidden>
+       
+        <button id="update-row-btn" class="bg-black border rounded-xl text-fuchsia-300 p-1.5 ">update</butto n>
+      </section>
+      <br />
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>

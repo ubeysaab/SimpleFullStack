@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="/dist/output.css" />
+    </head>
+    <body>
+      <nav
+        class="flex w-full items-center justify-between bg-violet-300 px-2 py-0"
+      >
+        <a class="mx-4 flex-initial text-lg" href="https://github.com/ubeysaab"
+          ><i class="fa fa-github fa-beat"></i
+        ></a>
+        <div class="flex w-8/12 flex-initial justify-between">
+          <a href="./customers.html">Customers</a>
+          <a href="./employees.html">Employees</a>
+          <a href="./product.html">Product</a>
+        </div>
+        <a
+          class="mx-4 flex-initial text-lg"
+          href="https://www.linkedin.com/in/ubeysaab/"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </nav>
+
+      <main class="container">
+        <div class="mb-6 grid gap-6 p-3 md:grid-cols-2">
+          <div>
+            <input
+              type="search"
+              placeholder="Search by Name "
+              class="customers-search-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+            />
+          </div>
+          <button
+            class="customers-search-btn rounded-xl border border-red-400 text-lg font-medium"
+          >
+            Search
+          </button>
+
+          <div>
+            <label
+              class="mb-2 block text-sm font-medium text-gray-900"
+              for="name"
+            >
+              companyName
+            </label>
+            <input
+              class="companyName-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="companyName"
+              type="text"
+              name="companyName"
+              class=""
+            />
+          </div>
+          <div>
+            <label
+              class="mb-2 block text-sm font-medium text-gray-900"
+              for="name"
+            >
+              contactName
+            </label>
+            <input
+              class="contactName-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+              placeholder="contactName"
+              type="text"
+              name="contactName"
+              class=""
+            />
+          </div>
+
+          <div>
+            <label
+              class="mb-2 block text-sm font-medium text-gray-900"
+              for="name"
+            >
+              contactTitle
+            </label>
+            <input
+              class="contactTitle-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="contactTitle"
+              type="text"
+              name="contactTitle"
+              class=""
+            />
+          </div>
+          <div>
+            <label
+              class="mb-2 block text-sm font-medium text-gray-900"
+              for="name"
+            >
+              address
+            </label>
+            <input
+              class="address-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="address"
+              type="text"
+              name="address"
+              class=""
+            />
+          </div>
+          <div>
+            <label
+              class="mb-2 block text-sm font-medium text-gray-900"
+              for="name"
+            >
+              city
+            </label>
+            <input
+              class="city-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="city"
+              type="text"
+              name="city"
+              class=""
+            />
+          </div>
+
+          <div>
+            <label
+              class="mb-2 block text-sm font-medium text-gray-900"
+              for="name"
+            >
+              region
+            </label>
+            <input
+              class="region-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="region"
+              type="text"
+              name="region"
+              class=""
+            />
+          </div>
+
+          <div>
+            <label
+              class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+              for="name"
+            >
+              postalCode
+            </label>
+            <input
+              class="postalCode-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="postalCode"
+              type="text"
+              name="postalCode"
+              class=""
+            />
+          </div>
+
+          <div>
+            <label
+              class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+              for="name"
+            >
+              country
+            </label>
+            <input
+              class="country-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="country"
+              type="text"
+              name="country"
+              class=""
+            />
+          </div>
+          <div>
+            <label
+              class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+              for="name"
+            >
+              phone
+            </label>
+            <input
+              class="phone-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="phone"
+              type="text"
+              name="phone"
+              class=""
+            />
+          </div>
+          <div>
+            <label
+              class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+              for="name"
+            >
+              fax
+            </label>
+            <input
+              class="fax-input block w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="fax"
+              type="text"
+              name="fax"
+              class=""
+            />
+          </div>
+
+          <button
+            class="add-customers-btn rounded-xl border border-green-500 text-lg font-medium"
+          >
+            Add customers
+          </button>
+        </div>
+
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+          <table class="w-full table-auto text-left text-sm text-gray-500">
+            <thead class="bg-gray-50 text-xs uppercase text-gray-700">
+              <tr>
+                <th class="p-3">CustomerId</th>
+                <th class="p-3">companyName</th>
+                <th class="p-3">contactName</th>
+                <th class="p-3">contactTitle</th>
+                <th class="p-3">address</th>
+                <th class="p-3">city</th>
+
+                <th class="p-3">region</th>
+                <th class="p-3">postalCode</th>
+                <th class="p-3">country</th>
+                <th class="p-3">phone</th>
+                <th class="p-3">fax</th>
+                <th class="p-3">Delete</th>
+                <th class="p-3">Edit</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <br />
+
+        <!-- bu hidden bir section  -->
+        <section class="edit-section w-2/3 p-2.5" hidden>
+          <button
+            id="update-row-btn"
+            class="rounded-xl border bg-black p-1.5 text-fuchsia-300"
+          >
+            update
+          </button>
+        </section>
+        <br />
+      </main>
+    </body>
+    <script src="./indexCustomers.js"></script>
+  </html>
+</html>
