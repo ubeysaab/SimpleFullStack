@@ -1,6 +1,6 @@
 # SimpleFullStack
  bu proje xammp,expressJs,nodejs,mysql kullanarak yapilmistit 
- ihtiyac duyacaginiz baketler de json.config dosyasinda bulabilirsiniz 
+ ihtiyac duyacaginiz baketler de package.json dosyasinda bulabilirsiniz  npm install kullanarak onlari indirebilirsiniz
  
  <br>
  
